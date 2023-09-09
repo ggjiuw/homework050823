@@ -85,5 +85,3 @@ elif total_calories >= 1000:
     else:
         print('Це саме ваш варіант вечері👍')
         print(f"З вас: {Decimal(PRICE_KILLO_CALORIE * total_calories).quantize(Decimal('0.01'))}грн")
-
-pass
